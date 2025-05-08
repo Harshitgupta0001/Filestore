@@ -149,13 +149,17 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/Nova_Flix/50")],
-
-    [
-                    InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('ʜᴇʟᴘ •', callback_data = "help")
-
-    ]
+                [
+            InlineKeyboardButton('Movies_Eera🦋', url=f'https://t.me/Movies_Eera'),
+            InlineKeyboardButton('search zone', url=f'https://t.me/eera_Search_Zone')
+        ],
+               [
+            InlineKeyboardButton('‼️ 𝙳𝙸𝚂𝙲𝙻𝙰𝙸𝙼𝙴𝚁 ‼️', url=f'https://graph.org/vTelegraphBot-08-03-7')
+        ], 
+        [
+            InlineKeyboardButton('⛩ 𝙰𝚋𝚘𝚞𝚝', 'about'),
+            InlineKeyboardButton('🔐 𝙲𝚕𝚘𝚜𝚎', 'close')
+        ]
             ]
         )
         await message.reply_photo(
