@@ -42,14 +42,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/xKG9rztd/photo-2024-06
 
 #--------------------------------------------
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Nova_Flix\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/cosmic_freak>sᴜʙᴀʀᴜ</a></blockquote></b>"
-ABOUT_TXT =f"<b>╭───────────⍟
-├➽ Dᴇᴠᴇʟᴏᴩᴇʀ : <a href='https://t.me/hgbotz'>HGBOTZ</a>
-├➽ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pʏʀᴏɢʀᴀᴍ</a>
-├➽ Lᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>Pʏᴛʜᴏɴ 3</a>
-├➽ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://t.me/HgBotz>HgBotz</a>
-├➽ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a href=https://t.me/Movies_Eera>Movies_Eera</a>
-├➽ Mᴀɪɴ Gʀᴏᴜᴘ : <a href=https://t.me/moviesworldsupportzone>search zone</a></b>
-╰───────────────⍟"
+ABOUT_TXT ="<b>Powered by @Movies_Eera </b>"
 #--------------------------------------------
 #--------------------------------------------
 START_MSG = os.environ.get("START_MESSAGE", "Hᴇʟʟᴏ {mention}\n\n<b>I Aᴍ Movie Bᴏᴛ I Wɪʟʟ Gɪᴠᴇ Yᴏᴜ Movie/series Fɪʟᴇs Fʀᴏᴍ <a href=https://t.me/Movies_Eera>Movies_Eera</a></b>.")
