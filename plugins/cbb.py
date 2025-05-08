@@ -31,10 +31,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         await query.message.edit_text(
             text=ABOUT_TXT.format(first=query.from_user.first_name),
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
-                 InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')]
-            ])
+            reply_markup = InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("𝙲𝚕𝚘𝚜𝚎", callback_data = "close")
+                    ]
+                ]
+            )
         )
 
     elif data == "start":
